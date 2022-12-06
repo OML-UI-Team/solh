@@ -37,7 +37,7 @@
                                 </li> 
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="events.php">Events</a>
+                                    <a href="#">Events</a>
                                 </li> 
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -48,13 +48,16 @@
                             <ul class="implinks f-column">
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="gallery.php">Gallery</a>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <a href="#">Media</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                                     <a href="download-now.php">Download Now</a>
-                                </li>                               
-                                
+                                </li>                                
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                                     <a href="terms-condition.php">Terms & condition</a>
@@ -66,9 +69,7 @@
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                                     <a href="privacy-policy.php">Privacy Policy</a>
-                                </li>
-                                
-                                
+                                </li>                                
                             </ul>
                         </div>
 

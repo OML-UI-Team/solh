@@ -5,7 +5,7 @@
     <?php include('includes/breadcrumbs.php'); ?>
 
 
-    <!-- Current Events Section Start -->
+    <!-- Events Section Start -->
     <div id="rs-services" class="event rs-services style2 gray-bg2 pt-100 pb-70 md-pt-80 md-pb-50 sm-pt-72">
         <div class="container">
             <div class="sec-title style2 mb-60 md-mb-50 sm-mb-42">
@@ -38,6 +38,9 @@
                                         <span><i class="fa fa-user-o"></i> Kapil Gupta</span>
                                     </div>
                                     <div class="desc">Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.</div>
+
+                                   
+
                                 </div>
                             </div>
                         </div>
@@ -46,132 +49,96 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Splash- The annual intercollege fest of LHMC.</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Current Events Section End -->
-
-
-    <!-- Upcoming Events Section Start -->
-        <div id="rs-services" class="event rs-services style2 pt-100 pb-70 md-pt-80 md-pb-50 sm-pt-72">
-        <div class="container">
-            <div class="sec-title style2 mb-60 md-mb-50 sm-mb-42">
-                <div class="first-half text-right">
-                    <div class="sub-title primary">Lorem ipsum dolor sit amet</div>
-                    <h2 class="title mb-0">Upcoming Events</h2>
-                </div>
-                <div class="last-half">
-                    <p class="desc mb-0 pr-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscip it arcu. Quisque aliquam posuere tortor aliquam posuere tortor develop
-                        database.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="row gutter-20">
-                        <div class="col-lg-12 mb-30">
-                            <div class="service-wrap">
-                                <div class="image-part">
-                                    <img src="images/solh-wellness-participated-in-the-annual-intercollege-fest.jpg" alt="">
+                    <div class="latest-post">
+                        <h4>Upcoming Events</h4>
+                        <ul>
+                            <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/here-we-go-again-mama-mia-post-1.jpg"></a>
                                 </div>
-                                <div class="content-part">
-                                    <h3 class="title"><a href="services-single.html">Splash- The annual intercollege fest of LHMC. </a></h3>
-                                    <div class="event-date">
-                                        <span class="sol-cat">Art</span>
-                                        <span><i class="fa fa-calendar-o"></i> December 02, 2022</span>
-                                        <span><i class="fa fa-map-marker"></i> New Delhi</span>
-                                        <span><i class="fa fa-user-o"></i> Kapil Gupta</span>
+                                <div class="post-desc">
+                                    <a href="#">Here We Go Again Mama Mia</a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        December 05, 2022
                                     </div>
-                                    <div class="desc">Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.</div>
                                 </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
+                            </li>
 
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Splash- The annual intercollege fest of LHMC.</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <div class="recent_post">
-                                <a href="#">
-                                    <div class="post-img"><img src="images/Corporates.jpg"></div>
-                                    <div class="p-title">Here We Go Again Mama Mia</div>
-                                </a>
-                            </div>
-                        </div>
+                            <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/splash-the-annual-intercollege-fest-of-lhmc-thumb.jpg"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <a href="#">Splash- The annual intercollege fest of LHMC. </a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        December 05, 2022
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/recent-post.jpg"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <a href="#">Covid-19 threatens the next generation of smartphones</a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        September 6, 2019
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/recent-post.jpg"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <a href="#">Covid-19 threatens the next generation of smartphones</a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        September 6, 2019
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/recent-post.jpg"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <a href="#">Covid-19 threatens the next generation of smartphones</a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        September 6, 2019
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-img">
+                                    <a href="#"><img src="images/recent-post.jpg"></a>
+                                </div>
+                                <div class="post-desc">
+                                    <a href="#">Covid-19 threatens the next generation of smartphones</a>
+                                    <div class="date-post">
+                                        <i class="fa fa-calendar"></i>
+                                        September 6, 2019
+                                    </div>
+                                </div>
+                            </li> -->
+                            
+                        </ul>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-    <!-- Upcoming Events Section End -->
+    <!-- Events Section End -->
 
     <!-- Blog Section Start -->
-    <div class="rs-blog style1 modify4 gray-bg2 bg41 pt-100 pb-100 md-pb-70 past-events-bg">
+    <div class="rs-blog style1 modify4 bg41 pt-100 pb-100 md-pb-70 past-events-bg">
         <div class="container">
             <div class="sec-title5 text-center mb-50">
                 <h2 class="title pb-20">Past Events</h2>
