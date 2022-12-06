@@ -145,7 +145,9 @@
             <i class="fa fa-angle-up"></i>
         </div>
 
-        
+        <?php
+            $_share_body = ("Please check out Solh App, empowering people with tools & solutions to enhance their mental health. It has a world-class marketplace with psychiatrists, psychologists, counsellors, therapists from all across the world.\r\n\r\nFor Google Playstore: https://play.google.com/store/apps/details?id=com.solh.app\r\nFor Apple App Store: https://apps.apple.com/in/app/solh-wellness/id1629858813"); 
+        ?>   
 
         <!-- Social Share Modal -->
         <div class="modal fade" id="socialShare" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -156,12 +158,31 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
+                        
+                        <p class="text-left">
+                            Please share with a friend or family or anyone you know, who may find Solh Platform valuable.<br> Also, please share with psychiatrists, psychologists, counsellors, therapists in your network.
+                        </p>
+                        
+
                         <div class="social-mdeia">
-                            <a href="https://wa.me/send?text=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813" data-action="share/whatsapp/share" target="_blank">Whatsapp</a>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://solhapp.com/&t=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813" target="_blank">Facebook</a>
-                            <a href="https://twitter.com/share?url=https://solhapp.com&text=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813" target="_blank">Twitter</a>
-                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://solhapp.com&t=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813" target="_blank">LinkedIn</a>
-                            <a href="mailto:?subject=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace&body=For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813" target="_blank">Gmail</a>
+                            <ul>
+                                <li><a href="https://wa.me/send?text=<?= rawurlencode($_share_body); ?>" data-action="share/whatsapp/share" target="_blank"><img src="images/whatsapp-icon.png"> <span>Whatsapp</span></a></li>
+                                
+                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://solhapp.com/&t=<?= rawurlencode($_share_body); ?>" target="_blank"><img src="images/fb-icon.png"><span>Facebook</span></a></li>
+
+                                <li><a href="https://twitter.com/share?url=https://solhapp.com&text=<?= rawurlencode($_share_body); ?>" target="_blank"><img src="images/twitter-icon.png"><span>Twitter</span></a></li>
+
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://solhapp.com&t=<?= rawurlencode($_share_body); ?>" target="_blank"><img src="images/linkedin-icon.png"><span>Linkedin</span></a></li>
+
+                                <li><a href="mailto:?subject=Solh Wellness&body=<?= rawurlencode($_share_body); ?>" target="_blank"><img src="images/email-icon.png"><span>Gmail</span></a></li>
+
+                                <li><a href="javascript:void(0)" onclick="cliptoboard(`<?= $_share_body; ?>`)"><img src="images/copy-icon.png"><span>Copy</span></a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="copied-div d-none">
+                            <i class="text-success fa fa-check-circle"></i> Copied successfully!
                         </div>
 
                     </div>
@@ -192,6 +213,7 @@
         <script>
             AOS.init();
         </script>
+        
         <script>
             const supported = ('share' in navigator);
             $(document).ready(function(){
@@ -200,7 +222,7 @@
                     if (supported) {
                         const shareOpts = {
                             title: 'Solh Wellness',
-                            text: 'For urgent help, find a therapist or doctor using our AI-driven proprietary mental health marketplace.%0a%0aDownload for android: https://play.google.com/store/apps/details?id=com.solh.app%0aDownload for iOS: https://apps.apple.com/in/app/solh-wellness/id1629858813',
+                            text: `<?= $_share_body ?>`,
                             url: '',
                         };
                         navigator.share(shareOpts)
@@ -219,6 +241,18 @@
                     }
                 })
             })
+
+            function cliptoboard(text) {
+                navigator.clipboard.writeText(text).then(function() {
+                    $('.copied-div').removeClass('d-none');
+                    setTimeout(function(){
+                        $('.copied-div').addClass('d-none');
+                    }, 2500);
+                    console.log('Async: Copying to clipboard was successful!');
+                }, function(err) {
+                    console.error('Async: Could not copy text: ', err);
+                });
+            }
         </script>
 
     </body>

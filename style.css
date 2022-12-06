@@ -17167,3 +17167,45 @@ ul.f-column {
   color:#577678;
 }
 
+#socialShare .modal-content {
+  background: #fff;
+  text-align: center;
+  border-radius: 0;
+  border: #5e9b8c solid 3px;
+  padding: 50px 0;
+  }
+#socialShare .modal-content .modal-body button {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  background: #5e9b8c;
+  width: 40px;
+  opacity: 1;
+  height: 40px;
+  }
+#socialShare .modal-content .modal-body button span {
+  color: #fff;
+  text-shadow: 0 0px 0 #fff;
+  }    
+.social-mdeia ul {
+  margin: 0px; padding: 0px;
+  }
+.social-mdeia ul li {
+  display: inline-block;
+  text-align: center; 
+  margin:10px;
+  } 
+.social-mdeia ul li a { display: inline-block; }
+
+.social-mdeia ul li a img{
+  transition: transform .5s ease;
+  }
+.social-mdeia ul li a img:hover {  
+  transform: scale(1.1);
+  }
+.social-mdeia ul li a span {
+  display: block; 
+  color: #000; 
+  font-size: 13px;
+  margin: 4px 0 0;
+  }
