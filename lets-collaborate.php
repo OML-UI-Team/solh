@@ -319,6 +319,64 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-sm-6 mb-30">
+                    <div class="team-wrap">
+                        <a href="#" data-toggle="modal" data-target="#deepBajaj">
+                            <div class="team-img">
+                                <img src="images/deep-bajaj.jpg" alt="Deep-Bajaj">
+                            </div>
+                            <div class="team-item-text">
+                                <div class="team-details">
+                                    <h3 class="team-name">Deep Bajaj</h3>
+                                    <span class="team-title">Co-Founder of Sirona</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="modal fade" id="deepBajaj">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Deep Bajaj</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-sm-3 mb-15"><img src="images/deep-bajaj.jpg" alt="">
+                                            </div>
+                                            <div class="col-lg-9 col-sm-9 mb-0">
+                                                <strong>Co-Founder of Sirona</strong>
+                                                <p>Deep Bajaj is the Co-Founder of Sirona [Award Winning FemTech Start-up] Known for PeeBuddy & Sirona Cups, An entrepreneur at heart, presently solving 'unaddressed' Intimate & Menstrual Hygiene issues faced by womxn with award-winning, category-defining products at SIRONA!.</p>
+                                            </div>
+                                        </div>
+                                        <p>His efforts at Sirona have been recognized with Multiple Awards including :
+                                            <ul class="listing-style">
+                                                <li>'Fortune 40 under 40'</li>
+                                                <li>‘Economic Times ET 40 under 40’</li>
+                                                <li>BW Business World ‘40 under 40’</li>
+                                                <li>Amazon Sambhv 'Social Entrepreneur of the Year'</li>
+                                                <li>PhD Chamber of Commerce 'Excellence Award for Start-up'</li>
+                                                <li>Business World BW 'Young Entrepreneur Award'</li>
+                                                <li>Economic Times 'Start up of the Year' - Social Enterprise </li>
+                                                <li>National Entrepreneurship Award by MSDE, Govt of India </li>
+                                                <li>TIE Global - Spirit of Manufacturing</li>
+                                                <li>Economic Times 'Innovation Award' (Inclusive Growth) </li>
+                                                <li>ET Lufthansa RunWay to Success - Season 5</li>
+                                                <li>ENTREPRENEUR 'Social Entrepreneur of the Year'</li>
+                                            </ul>
+                                        </p>
+                                        <p>Prior to Sirona, Deep had started an events & advertising brand called Thyme Advertising and a Handmade Carpet business (Carpet Couture by Rashi).</p>
+                                        <p>Deep is a Post Graduate from Australian National University (2005), B.Com from Delhi University! Deep loves supporting new Start Ups with inputs/angel funding/connects!</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
