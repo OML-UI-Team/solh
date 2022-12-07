@@ -161,7 +161,7 @@
                             <div class="team-item-text">
                                 <div class="team-details">
                                     <h3 class="team-name">Dr. Rajni Sahni</h3>
-                                    <span class="team-title">Associate Professor, DRC, Univ of Delhi</span>
+                                    <span class="team-title">Professor, DRC, Univ of Delhi</span>
                                 </div>
                             </div>
                         </a>
@@ -180,7 +180,7 @@
                                             <div class="col-lg-3 col-sm-3 mb-15"><img src="images/rajni.jpg" alt="">
                                             </div>
                                             <div class="col-lg-9 col-sm-9 mb-0">
-                                                <strong>Associate Professor, DRC, Univ of Delhi</strong>
+                                                <strong>Professor, DRC, Univ of Delhi</strong>
                                                 <p>Dr. Rajni Sahni (Professor, Department of Psychology) is currently
                                                     serving at Daulat Ram College (University Of Delhi) as Associate
                                                     Professor.</p>
