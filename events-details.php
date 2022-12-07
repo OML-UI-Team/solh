@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row gutter-20 d-flex justify-content-center">
-                        <div class="col-lg-9 mb-30">
+                        <div class="col-lg-8 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
                                     <img src="images/solh-wellness-participated-in-the-annual-intercollege-fest.jpg" alt="">
@@ -35,6 +35,50 @@
                                 </div>
                             </div>
                         </div>                       
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="service-wrap p-2">
+                            <h4 class="widget-title">Latest Posts</h4>
+                                <div class="footer-post">
+                                    <div class="post-wrap mb-15">
+                                        <div class="post-img">
+                                            <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank"><img src="images/why-am-i-an-overthinker-thumb.jpg" alt=""></a>
+                                        </div>
+                                        
+                                        <div class="post-desc">
+                                            <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank">Why am I an overthinker?</a>
+                                            <div class="date-post">
+                                                <i class="fa fa-calendar"></i>
+                                                November 17, 2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-wrap mb-15">
+                                        <div class="post-img">
+                                            <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank"><img src="images/how-society-treats-men-mental-health-issue-thumb.jpg" alt=""></a>
+                                        </div>
+                                        <div class="post-desc">
+                                            <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank">How Society Treats Men - Mental Health Issue</a>
+                                            <div class="date-post">
+                                                <i class="fa fa-calendar"></i>
+                                                November 17, 2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-wrap">
+                                        <div class="post-img">
+                                            <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank"><img src="images/the-many-hues-of-the-human-personality-htumb.jpg" alt=""></a>
+                                        </div>
+                                        <div class="post-desc">
+                                            <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank">The Many Hues of The Human Personality!</a>
+                                            <div class="date-post">
+                                                <i class="fa fa-calendar"></i>
+                                                November 01, 2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
                     </div>
                 </div>             
 
