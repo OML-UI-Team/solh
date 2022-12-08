@@ -75,44 +75,12 @@
 
                         
 
-                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
+                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget post-footer-section">
                             <h4 class="widget-title">Latest Posts</h4>
                             <div class="footer-post">
-                                <div class="post-wrap mb-15">
-                                    <div class="post-img">
-                                        <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank"><img src="images/why-am-i-an-overthinker-thumb.jpg" alt=""></a>
-                                    </div>
-                                    
-                                    <div class="post-desc">
-                                        <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank">Why am I an overthinker?</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            November 17, 2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-wrap mb-15">
-                                    <div class="post-img">
-                                        <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank"><img src="images/how-society-treats-men-mental-health-issue-thumb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank">How Society Treats Men - Mental Health Issue</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            November 17, 2022
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-wrap">
-                                    <div class="post-img">
-                                        <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank"><img src="images/the-many-hues-of-the-human-personality-htumb.jpg" alt=""></a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank">The Many Hues of The Human Personality!</a>
-                                        <div class="date-post">
-                                            <i class="fa fa-calendar"></i>
-                                            November 01, 2022
-                                        </div>
+                                <div class="post-loader text-center">
+                                    <div class="spinner-border text-light" role="status">
+                                        <span class="sr-only">Loading...</span>
                                     </div>
                                 </div>
                             </div>
@@ -240,7 +208,57 @@
                         $('#socialShare').modal('show');
                     }
                 })
+
+                loadposts();
+                $(window).scroll(function() {
+                    loadposts();
+                });
+
+                
             })
+
+            function loadposts() {
+                if($(window).scrollTop() >= ($(document).height() - $(window).height() - 200)) {
+                    if($('.post-list').length < 1) {
+                        $.get("https://solhapp.com/blog/api/posts", function(data, status){
+                            // console.log(status);
+                            // console.log(data);
+                            if(status == 'success') {
+                                var html = "";
+                                var i = 1;
+                                data.forEach(post => {
+                                    // console.log(post);
+                                    if (i === 4) { return false; }
+                                    html += `<div class="post-wrap mb-15 post-list">
+                                                <div class="post-img">
+                                                    <a href="${post.url}" target="_blank">
+                                                        <img src="${post.image}" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="post-desc">
+                                                    <a href="${post.url}" target="_blank">
+                                                        ${post.name}
+                                                    </a>
+                                                    <div class="date-post">
+                                                        <i class="fa fa-calendar"></i>
+                                                        ${ new Date(post.created_at).toDateString() }
+                                                    </div>
+                                                </div>
+                                            </div>`;
+                                    i++;
+                                });
+                                
+                                $('.footer-post').html(html);
+                            } else {
+                                var html = `<div class="post-wrap post-list">
+                                                <p class="text-center text-light">Sorry! No post available.</p>
+                                            </div>`;
+                                $('.footer-post').html(html);
+                            }
+                        });  
+                    }
+                }
+            }
 
             function cliptoboard(text) {
                 navigator.clipboard.writeText(text).then(function() {
