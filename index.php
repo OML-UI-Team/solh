@@ -495,6 +495,7 @@
                         </div>
                     </div>
 
+                    
                     <div class="col-lg-4 col-md-6">
                         <div class="flip-box-inner">
                             <div class="flip-box-wrap">
@@ -593,7 +594,7 @@
                         <div class="services-part">
 
                             <div class="services-text">
-                                <h4 class="title"> <a href="let-collaborate.php">Friends of Solh</a> </h4>
+                                <h4 class="title"> <a href="lets-collaborate.php">Friends of Solh</a> </h4>
                                 <div class="desc">Our flag-bearers keeping us true and enlightening us along the way
                                 </div>
                             </div>
