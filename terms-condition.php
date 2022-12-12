@@ -4,7 +4,7 @@
     <div class="main-content">
     <?php include('includes/breadcrumbs.php'); ?>
 
-        <div id="rs-about" class="tmc rs-about style1 pt-100 pb-100 md-pt-80 md-pb-80">
+        <div class="tmc rs-about style1 pt-100 pb-100 md-pt-80 md-pb-80">
             <div class="container">
 
                 <div class="row">

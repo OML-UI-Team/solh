@@ -5,7 +5,7 @@
         <?php include('includes/breadcrumbs.php'); ?>
             
 
-            <div id="rs-portfolio" class="rs-portfolio style1 pt-100 pb-70 md-pt-80 md-pb-50">
+            <div class="rs-portfolio style1 pt-100 pb-70 md-pt-80 md-pb-50">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-sm-6 mb-30">

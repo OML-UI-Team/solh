@@ -1,16 +1,5 @@
 @charset "utf-8";
 
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Reobiz – Consulting Business HTML Template
-* Author : rs-theme
-* Author URI : http://www.rstheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
 
 /* Important CSS */
 .dual-btn .dual-btn-wrap a.btn-left {
@@ -621,7 +610,7 @@
     body.home-eleven .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.mega-menu .mega-menu-container .single-megamenu:hover .sub-menu .menu-title,
     body.home-eleven .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li a {
         padding: 10px 20px !important;
-    }
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     .full-width-header.header-style2.modify.red .rs-header .menu-area .main-menu .rs-menu ul.mega-menu {
         right: -220px;
     }
@@ -3818,6 +3807,73 @@
     .rs-contact.style3 .g-map iframe {
         height: 300px;
     }
+	
+	
+	
+.section1 .slide{height: 100vh;background: url(../images/slider-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+
+
+.section1 .content-part .sl-title {
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #fff;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	margin-bottom: 0px;
+}
+.section1 .content-part .sl-desc {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: inherit;
+	padding-top: 3%;
+	
+}
+	
+.mt-40 {margin-top: 15px;}
+.section1 .content-part .slider-bottom ul li {display: inline-block;margin-right: 5px;}
+	
+body.home-six .readon {
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size: 13px;}	
+	
+.section1 .slide .content-part {max-width: 800px;padding-top: 100%;}	
+
+.md-pb-80 {padding-bottom: 40px;}
+.rs-whychooseus.style9 .sec-title5 .title {font-size: 20px;text-align: center;line-height: 30px;}
+.apps-store li a{display: inline-block;}
+.rs-whychooseus.style9 .apps-store li {display: inline;margin: 0 0 15px;}	
+.md-pb-70 {padding-bottom: 40px;}
+.md-pt-70 {padding-top: 40px;}
+.md-pt-80 {padding-top: 40px;}
+.title{font-size: 20px;}
+#rs-about{padding-top:0px;}
+.rs-testimonial{padding-bottom: 0px;}
+.rs-team{padding-bottom: 75px;padding-bottom: 1px;}
+.implinks li {margin-bottom: 10px;display: inline-block;width: 47%;}
+.rs-footer .footer-content .widget-title{text-align:left;}
+.md-pb-64 {padding-bottom: 20px;}
+
+.full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a, .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu > li > a {
+    height: unset;
+    line-height: normal;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid #61b19d;
+}
+
+.apps-store{margin: auto; text-align: center;}
+.group-btn li{display: inline; width: 100%;}
+.readon{font-size: 11px;}
+	
+	
 }
 
 @media only screen and (max-width: 320px) {

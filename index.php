@@ -60,28 +60,28 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
 
     <!-- Bootstrap v4.4.1 css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <!-- font-awesome css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
     <!-- owl.carousel css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 
     <!-- aos animation css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Main Menu css -->
-    <link rel="stylesheet" href="assets/css/rsmenu-main.css">
+    <link rel="stylesheet" href="css/rsmenu-main.css">
 
     <!-- spacing css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
+    <link rel="stylesheet" type="text/css" href="css/rs-spacing.css">
 
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
@@ -182,19 +182,18 @@
     <!-- Main content Start -->
     <div class="main-content">
         <!-- Slider Start -->
-        <div id="rs-slider" class="rs-slider slider6">
-            <div class="slider-carousel owl-carousel">
-                <!-- Slide 1 -->
-                <div class="slider slide1">
-                    <div class="container">
-                        <div class="content-part">
-                            <div class="slider-des">
-                                <!-- <h1 class="sl-title mb-18">Everyone Needs Mental Health Support..</h1>
-                                    <div class="sl-desc">Some to be Happy, Some to Relieve Stress! Hit a pause to the mental torment. Rejuvenate your mind with Solh!</div> -->
+
+
+        <section class="section1">
+            <div class="slide">
+            <div class="container">
+                <div class="content-part">
+                <div class="slider-des">
                                 <h1 class="sl-title mb-18">Climate. Contagion. Conflict. Conformity.</h1>
                                 <div class="sl-desc">Every life is full of stress. Everyone needs support. We empower
                                     you to build resilience, perseverence & determination.</div>
                             </div>
+
                             <div class="slider-bottom mt-40">
                                 <ul>
                                     <li><a href="lets-collaborate.php" class="readon sl style6">Let's Collaborate</a>
@@ -202,19 +201,15 @@
                                     <li><a href="contact.php" class="readon sl style6">Join as a Practitioner</a></li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
+
                 </div>
-                <!-- Slide 2 -->
 
             </div>
-        </div>
-        <!-- Slider End -->
 
-        <!-- Services Section Start -->
 
-        <!-- Services Section End -->
-
+            </div>
+            
+        </section>
         <!-- About Section Start -->
         <div id="out" class="out style3 pb-100 md-pb-80">
             <div class="container">
@@ -575,9 +570,6 @@
         <div id="rs-about" class="rs-about style1 md-pt-80" style="background-color:#e2e8df;">
             <div class="container">
                 <div class="row y-bottom">
-                    <div class="col-lg-6 padding-0">
-                        <img src="images/Friends-of-Solh.png" alt="">
-                    </div>
                     <div class="col-lg-6 pl-66 pt-75 pb-75 md-pt-42 md-pb-72">
                         <div class="sec-title mb-47 md-mb-42">
                             <div class="sub-title primary" style="color: #8f5834;">Friends of Solh</div>
@@ -599,6 +591,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6 padding-0">
+                        <img src="images/Friends-of-Solh.png" alt="">
                     </div>
                 </div>
             </div>
