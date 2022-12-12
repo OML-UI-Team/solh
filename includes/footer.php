@@ -75,15 +75,16 @@
 
                         
 
-                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget post-footer-section">
+                        <div class="col-lg-4 col-md-12 col-sm-12 footer-widget post-footer-section text-center">
                             <h4 class="widget-title">Latest Posts</h4>
-                            <div class="footer-post">
+                            <div class="footer-post text-left">
                                 <div class="post-loader text-center">
                                     <div class="spinner-border text-light" role="status">
                                         <span class="sr-only">Loading...</span>
                                     </div>
                                 </div>
-                            </div>
+                                </div>
+                            <a href="https://solhapp.com/blog/" target="_blank" style="color:#fff;">view all</a>
                         </div>
                     </div>
                 </div>
@@ -101,6 +102,7 @@
                                     <li><a href="https://www.linkedin.com/company/solh-app/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                     <li><a href="https://twitter.com/solhappofficial" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -160,24 +162,24 @@
       
 
         <!-- modernizr js -->
-        <!-- <script src="assets/js/modernizr-2.8.3.min.js"></script> -->
+        <!-- <script src="js/modernizr-2.8.3.min.js"></script> -->
         <!-- jquery latest version -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <!-- Bootstrap v4.4.1 js -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <!-- Menu js -->
-        <script src="assets/js/rsmenu-main.js"></script> 
+        <script src="js/rsmenu-main.js"></script> 
         <!-- op nav js -->
-        <script src="assets/js/jquery.nav.js"></script>
+        <script src="js/jquery.nav.js"></script>
         <!-- owl.carousel js -->        
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
         <!-- magnific popup js -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/aos.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/main.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="assets/js/script.js"></script>
+        <script src="js/script.js"></script>
         <script>
             AOS.init();
         </script>

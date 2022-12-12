@@ -5543,79 +5543,7 @@ body .modal-backdrop {
 .rs-slider.slider5 .owl-dots .owl-dot.last-child {
   margin-bottom: 0;
 }
-.rs-slider.slider6 {
-  position: relative;
-  /*-- Animations Start --*/
 
-  /*-- Animations End --*/
-
-}
-.rs-slider.slider6 .sl-subtitle {
-  -webkit-animation: fadeInDown 1.7s ease-in-out;
-  animation: fadeInDown 1.7s ease-in-out;
-}
-.rs-slider.slider6 .sl-title {
-  -webkit-animation: fadeInUp 1.2s ease-in-out;
-  animation: fadeInUp 1.2s ease-in-out;
-}
-.rs-slider.slider6 .slider-bottom {
-  -webkit-animation: fadeInUp 1.8s ease-in-out;
-  animation: fadeInUp 1.8s ease-in-out;
-}
-.rs-slider.slider6 .slider {
-  height: 950px;
-  padding: 275px 0 0;
-}
-.rs-slider.slider6 .slider.slide1 {
-  background: url(images/slider.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right 0% bottom 0%;
-}
-.rs-slider.slider6 .slider.slide1 .content-part {
-  max-width: 800px;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .sl-subtitle {
-  font-size: 20px;
-  line-height: 35px;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  letter-spacing: 2px;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .sl-title {
-  font-size: 50px;
-  line-height: 70px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .sl-title span {
-  font-size: 80px;
-  line-height: 90px;
-  font-weight: 700;
-  display: block;
-  margin-bottom: 13px;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .sl-desc {
-  font-size: 18px;
-  line-height: 32px;
-  font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-  letter-spacing: 2px;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .slider-bottom {
-  display: inline-block;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .slider-bottom ul li {
-  display: inline-block;
-  margin-right: 15px;
-}
-.rs-slider.slider6 .slider.slide1 .content-part .slider-bottom ul li:last-child {
-  margin: 0;
-}
 .rs-slider.slider6 .slider.slide2 {
   background: url(assets/images/slider/h6-sl2.jpg);
   background-repeat: no-repeat;
@@ -17209,4 +17137,79 @@ ul.f-column {
   color: #000; 
   font-size: 13px;
   margin: 4px 0 0;
+  }
+
+
+
+
+  .section1 {
+    position: relative;
+    /*-- Animations Start --*/
+  
+    /*-- Animations End --*/
+  
+  }
+  .section1 .sl-subtitle {
+    -webkit-animation: fadeInDown 1.7s ease-in-out;
+    animation: fadeInDown 1.7s ease-in-out;
+  }
+  .section1 .sl-title {
+    -webkit-animation: fadeInUp 1.2s ease-in-out;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+  .section1 .slider-bottom {
+    -webkit-animation: fadeInUp 1.8s ease-in-out;
+    animation: fadeInUp 1.8s ease-in-out;
+  }
+  .section1 .slide {
+    background: url(images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0% bottom 0%;
+    height: 950px;
+    padding: 275px 0 0;
+  }
+  .section1 .slide .content-part {
+    max-width: 800px;
+  }
+  .section1 .slide .content-part .sl-subtitle {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .section1 .content-part .sl-title {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+  .section1 .content-part .sl-title span {
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 13px;
+  }
+  .section1 .content-part .sl-desc {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .section1 .content-part .slider-bottom {
+    display: inline-block;
+  }
+  .section1 .content-part .slider-bottom ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .section1 .content-part .slider-bottom ul li:last-child {
+    margin: 0;
   }

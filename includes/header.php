@@ -47,53 +47,51 @@
         <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
        
         <!-- Bootstrap v4.4.1 css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         
         <!-- font-awesome css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
        
         <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
         
         <!-- aos css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+        <link rel="stylesheet" type="text/css" href="css/aos.css">
         
         <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
        
         <!-- slick css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
        
         <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
+        <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
         
         <!-- linea-font css -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
+        <link rel="stylesheet" type="text/css" href="fonts/linea-fonts.css">
         
         <!-- flaticon css  -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
        
         <!-- magnific popup css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
        
         <!-- Main Menu css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-main.css">
+        <link rel="stylesheet" href="css/rsmenu-main.css">
         
-        <!-- nivo slider CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/nivo-slider.css">
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/preview.css">
+        
        
         <!-- rsmenu transitions css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-transitions.css">
+        <link rel="stylesheet" href="css/rsmenu-transitions.css">
        
         <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
+        <link rel="stylesheet" type="text/css" href="css/rs-spacing.css">
        
         <!-- style css -->
         <link rel="stylesheet" type="text/css" href="style.css">
         
         <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         
         <!-- aos animation css -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
