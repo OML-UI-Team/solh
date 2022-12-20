@@ -36,50 +36,86 @@
                             </div>
                         </div>                       
                         <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="service-wrap p-2">
-                            <h4 class="widget-title">Latest Posts</h4>
-                                <div class="footer-post">
+                            <div class="service-wrap rb-lp-post">
+                                <h4>Latest Posts</h4>  
+                                <div class="footer-post rightsidebar-latest-post">                                    
                                     <div class="post-wrap mb-15">
-                                        <div class="post-img">
-                                            <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank"><img src="images/why-am-i-an-overthinker-thumb.jpg" alt=""></a>
-                                        </div>
-                                        
-                                        <div class="post-desc">
-                                            <a href="https://solhapp.com/blog/why-am-i-an-overthinker-1" target="_blank">Why am I an overthinker?</a>
-                                            <div class="date-post">
-                                                <i class="fa fa-calendar"></i>
-                                                November 17, 2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-wrap mb-15">
-                                        <div class="post-img">
-                                            <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank"><img src="images/how-society-treats-men-mental-health-issue-thumb.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <a href="https://solhapp.com/blog/how-society-treats-men-mental-health-issue" target="_blank">How Society Treats Men - Mental Health Issue</a>
-                                            <div class="date-post">
-                                                <i class="fa fa-calendar"></i>
-                                                November 17, 2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-wrap">
-                                        <div class="post-img">
-                                            <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank"><img src="images/the-many-hues-of-the-human-personality-htumb.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-desc">
-                                            <a href="https://solhapp.com/blog/the-many-hues-of-the-human-personality" target="_blank">The Many Hues of The Human Personality!</a>
-                                            <div class="date-post">
-                                                <i class="fa fa-calendar"></i>
-                                                November 01, 2022
-                                            </div>
+                                        <div class="spinner-border text-light" role="status">
+                                            <span class="sr-only">Loading...</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>                    
                     </div>
+
+                    <div id="rs-portfolio" class="rs-portfolio single pt-50 pb-70 md-pt-80 md-pb-50">
+        <div class="container">
+        <div class="row gallery-wrap">
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/1.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/1.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/2.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/2.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/3.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/3.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/4.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/4.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/5.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/5.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30">
+                <div class="gallery-item">
+                    <div class="content-part">
+                        <img src="images/portfolio/6.jpg" alt="">
+                        <a class="image-popup" href="images/portfolio/6.jpg">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
                 </div>             
 
             </div>
