@@ -1,5 +1,28 @@
 <?php include('includes/header.php'); ?>
 
+<?php
+if(!isset($_GET['event']) || empty($_GET['event'])) {
+    header('location:'.$_base_url);
+}
+$event_identifier = $_GET['event'];
+// create curl resource
+$ch = curl_init();
+
+// set url
+curl_setopt($ch, CURLOPT_URL, "$_api_base_url/api/event/$event_identifier");
+
+//return the transfer as a string
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+// $output contains the output string
+$events = curl_exec($ch);
+
+// close curl resource to free up system resources
+curl_close($ch);
+
+$event = json_decode($events, true);
+
+?>
 <!-- Main content Start -->
 <div class="main-content">
     <?php include('includes/breadcrumbs.php'); ?>
@@ -16,21 +39,18 @@
                         <div class="col-lg-8 mb-30">
                             <div class="service-wrap">
                                 <div class="image-part">
-                                    <img src="images/solh-wellness-participated-in-the-annual-intercollege-fest.jpg" alt="">
+                                    <img src="<?= $_api_base_url.'/'.$event['image'] ?>" alt="">
                                 </div>
                                 <div class="content-part inner_cont">
-                                    <h3 class="title"><a href="services-single.html">Splash- The annual intercollege fest of LHMC. </a></h3>
+                                    <h3 class="title"><a href="services-single.html"><?= $event['name'] ?></a></h3>
                                     <div class="event-date">
                                         <span class="sol-cat">Art</span>
-                                        <span><i class="fa fa-calendar-o"></i> December 02, 2022</span>
-                                        <span><i class="fa fa-map-marker"></i> New Delhi</span>
-                                        <span><i class="fa fa-user-o"></i> Kapil Gupta</span>
+                                        <span><i class="fa fa-calendar-o"></i> <?= date('M d, Y h:i A', strtotime($event['event_date']." ".$event['event_time'])) ?></span>
+                                        <span><i class="fa fa-map-marker"></i> <?= $event['location'] ?></span>
+                                        <!-- <span><i class="fa fa-user-o"></i> Kapil Gupta</span> -->
                                     </div>
-                                    <div class="desc">Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.
-                                    Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.
-                                    Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.
-                                    Solh Wellness participated in the annual intercollege fest, with stall no. 7, held at Lady Hardinge Medical College. Thousands of people participated in this event and asked many questions to clear their doubts about mental health issues. We answered their all questions based on proven concepts and the latest data from leading medical authorities. We also made people play different kinds of puzzle games and carried out personality tests on them to improve their mental health. We talked to many people during the event. Reportedly, this event was a success as we got a good response.
-
+                                    <div class="desc">
+                                        <?= $event['content'] ?>
                                     </div>
                                 </div>
                             </div>
@@ -122,5 +142,7 @@
         </div>
     </div>
     <!-- Current Events Section End -->
-
 <?php include('includes/footer.php'); ?>
+<script>
+    loadposts();
+</script>

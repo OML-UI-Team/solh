@@ -6,13 +6,11 @@
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-39">
                             <div class="about-widget pr-15">
                                 <div class="logo-part">
-                                    <a href="index.html"><img src="images/logo1.png" alt="Footer Logo"></a>
+                                    <a href="<?= $_base_url ?>"><img src="<?= $_base_url ?>/images/logo1.png" alt="Footer Logo"></a>
                                 </div>
-                                <p class="desc">Solh is a preventive mental health platform that is helping increase the psychological capital of every individual and hence the society by removing stigma and empowering everyone with tools, solutions and world's first mental health marketplace.
-
-</p>
+                                <p class="desc">Solh is a preventive mental health platform that is helping increase the psychological capital of every individual and hence the society by removing stigma and empowering everyone with tools, solutions and world's first mental health marketplace.</p>
                                 <div class="btn-footer-about">
-                                    <a href="about.html">Discover More</a>
+                                    <a href="<?= $_base_url ?>/about.html">Discover More</a>
                                 </div>
                             </div>
                         </div>
@@ -21,23 +19,23 @@
                             <ul class="implinks f-column">
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="about.php">About Us</a>
+                                    <a href="<?= $_base_url ?>/about.php">About Us</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="our-team.php">Our Team</a>
+                                    <a href="<?= $_base_url ?>/our-team.php">Our Team</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="<?= $_base_url ?>/contact.php">Contact Us</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="vision.php">Vision</a>
+                                    <a href="<?= $_base_url ?>/vision.php">Vision</a>
                                 </li> 
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Events</a>
+                                    <a href="<?= $_base_url ?>/#">Events</a>
                                 </li> 
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -56,19 +54,19 @@
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="download-now.php">Download Now</a>
+                                    <a href="<?= $_base_url ?>/download-now.php">Download Now</a>
                                 </li>                                
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="terms-condition.php">Terms & condition</a>
+                                    <a href="<?= $_base_url ?>/terms-condition.php">Terms & condition</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="refund-policy.php"> Refund Policy</a>
+                                    <a href="<?= $_base_url ?>/refund-policy.php"> Refund Policy</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="privacy-policy.php">Privacy Policy</a>
+                                    <a href="<?= $_base_url ?>/privacy-policy.php">Privacy Policy</a>
                                 </li>                                
                             </ul>
                         </div>
@@ -164,22 +162,22 @@
         <!-- modernizr js -->
         <!-- <script src="js/modernizr-2.8.3.min.js"></script> -->
         <!-- jquery latest version -->
-        <script src="js/jquery.min.js"></script>
+        <script src="<?= $_base_url ?>/js/jquery.min.js"></script>
         <!-- Bootstrap v4.4.1 js -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="<?= $_base_url ?>/js/bootstrap.min.js"></script>
         <!-- Menu js -->
-        <script src="js/rsmenu-main.js"></script> 
+        <script src="<?= $_base_url ?>/js/rsmenu-main.js"></script> 
         <!-- op nav js -->
-        <script src="js/jquery.nav.js"></script>
+        <script src="<?= $_base_url ?>/js/jquery.nav.js"></script>
         <!-- owl.carousel js -->        
-        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="<?= $_base_url ?>/js/jquery.magnific-popup.min.js"></script>
         <!-- magnific popup js -->
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/main.js"></script>
+        <script src="<?= $_base_url ?>/js/owl.carousel.min.js"></script>
+        <script src="<?= $_base_url ?>/js/wow.min.js"></script>
+        <script src="<?= $_base_url ?>/js/aos.js"></script>
+        <script src="<?= $_base_url ?>/js/main.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="js/script.js"></script>
+        <script src="<?= $_base_url ?>/js/script.js"></script>
         <script>
             AOS.init();
         </script>
@@ -211,55 +209,58 @@
                     }
                 })
 
-                loadposts();
-                $(window).scroll(function() {
+                if($(window).scrollTop() >= ($(document).height() - $(window).height() - 200)) {
                     loadposts();
+                }
+                $(window).scroll(function() {
+                    if($(window).scrollTop() >= ($(document).height() - $(window).height() - 200)) {
+                        loadposts();
+                    }
                 });
 
                 
             })
 
             function loadposts() {
-                if($(window).scrollTop() >= ($(document).height() - $(window).height() - 200)) {
-                    if($('.post-list').length < 1) {
-                        $.get("https://solhapp.com/blog/api/posts", function(data, status){
-                            // console.log(status);
-                            // console.log(data);
-                            if(status == 'success') {
-                                var html = "";
-                                var i = 1;
-                                
-                                data.forEach(post => {
-                                    // console.log(post);
-                                    if (i === 4) { return false; }
-                                    html += `<div class="post-wrap mb-15 post-list">
-                                                <div class="post-img">
-                                                    <a href="${post.url}" target="_blank">
-                                                        <img src="${post.image}" alt="">
-                                                    </a>
+                
+                if($('.post-list').length < 1) {
+                    $.get("https://solhapp.com/blog/api/posts", function(data, status){
+                        // console.log(status);
+                        // console.log(data);
+                        if(status == 'success') {
+                            var html = "";
+                            var i = 1;
+                            
+                            data.forEach(post => {
+                                // console.log(post);
+                                if (i === 4) { return false; }
+                                html += `<div class="post-wrap mb-15 post-list">
+                                            <div class="post-img">
+                                                <a href="${post.url}" target="_blank">
+                                                    <img src="${post.image}" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post-desc">
+                                                <a href="${post.url}" target="_blank">
+                                                    ${post.name}
+                                                </a>
+                                                <div class="date-post">
+                                                    <i class="fa fa-calendar"></i>
+                                                    ${ new Date(post.created_at).toDateString() }
                                                 </div>
-                                                <div class="post-desc">
-                                                    <a href="${post.url}" target="_blank">
-                                                        ${post.name}
-                                                    </a>
-                                                    <div class="date-post">
-                                                        <i class="fa fa-calendar"></i>
-                                                        ${ new Date(post.created_at).toDateString() }
-                                                    </div>
-                                                </div>
-                                            </div>`;
-                                    i++;
-                                });
-                                
-                                $('.footer-post').html(html);
-                            } else {
-                                var html = `<div class="post-wrap post-list">
-                                                <p class="text-center text-light">Sorry! No post available.</p>
-                                            </div>`;
-                                $('.footer-post').html(html);
-                            }
-                        });  
-                    }
+                                            </div>
+                                        </div>`;
+                                i++;
+                            });
+                            
+                            $('.footer-post').html(html);
+                        } else {
+                            var html = `<div class="post-wrap post-list">
+                                            <p class="text-center text-light">Sorry! No post available.</p>
+                                        </div>`;
+                            $('.footer-post').html(html);
+                        }
+                    });  
                 }
             }
 

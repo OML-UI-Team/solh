@@ -1,3 +1,7 @@
+<?php
+$_base_url = "http://192.168.1.56/solh/web";
+$_api_base_url = "http://192.168.1.56/solh/blog";
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -14,18 +18,18 @@
         <meta charset="UTF-8">
         <title>Solh Wellness App - India's First Mental Health Marketplace</title>
         <meta name="description" content="Solh Wellness App is the Best Mental Health Wellness App in India. Let’s rejuvenate your soul! with our best Mental Health Professionals in India. Click here to get the best Mental Health solutions.">
-        <link rel="canonical" href="https://www.solhapp.com/" />
+        <link rel="canonical" href="<?= $_base_url ?>/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Solh Wellness App - India's First Mental Health Marketplace"/>
         <meta property="og:description" content="Solh Wellness App is the Best Mental Health Wellness App in India. Let’s rejuvenate your soul! with our best Mental Health Professionals in India. Click here to get the best Mental Health solutions." />
-        <meta property="og:url" content="https://www.solhapp.com/" />
+        <meta property="og:url" content="<?= $_base_url ?>/" />
         <meta property="og:site_name" content="Solh Wellness App" />
         <script type="application/ld+json">
         {
           "@context": "https://schema.org/", 
           "@type": "Product", 
           "name": "Solh Wellness App - India's First Mental Health Marketplace",
-          "image": "https://www.solhapp.com/assets/img/app-landing/logo/logo1.png",
+          "image": "<?= $_base_url ?>/assets/img/app-landing/logo/logo1.png",
           "description": "Solh Wellness App is the Best Mental Health Wellness App in India. Let’s rejuvenate your soul! with our best Mental Health Professionals in India. Click here to get the best Mental Health solutions.",
           "brand": {
             "@type": "Brand",
@@ -44,54 +48,54 @@
        
         <!-- favicon -->
         <link rel="apple-touch-icon" href="apple-touch-icon.html">
-        <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?= $_base_url ?>/images/fav.png">
        
         <!-- Bootstrap v4.4.1 css -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/bootstrap.min.css">
         
         <!-- font-awesome css -->
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/font-awesome.min.css">
        
         <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/animate.css">
         
         <!-- aos css -->
-        <link rel="stylesheet" type="text/css" href="css/aos.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/aos.css">
         
         <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/owl.carousel.css">
        
         <!-- slick css -->
-        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/slick.css">
        
         <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/off-canvas.css">
         
         <!-- linea-font css -->
-        <link rel="stylesheet" type="text/css" href="fonts/linea-fonts.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/fonts/linea-fonts.css">
         
         <!-- flaticon css  -->
-        <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/fonts/flaticon.css">
        
         <!-- magnific popup css -->
-        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/magnific-popup.css">
        
         <!-- Main Menu css -->
-        <link rel="stylesheet" href="css/rsmenu-main.css">
+        <link rel="stylesheet" href="<?= $_base_url ?>/css/rsmenu-main.css">
         
         
        
         <!-- rsmenu transitions css -->
-        <link rel="stylesheet" href="css/rsmenu-transitions.css">
+        <link rel="stylesheet" href="<?= $_base_url ?>/css/rsmenu-transitions.css">
        
         <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="css/rs-spacing.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/rs-spacing.css">
        
         <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/style.css">
         
         <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="<?= $_base_url ?>/css/responsive.css">
         
         <!-- aos animation css -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -148,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-2">
-                                <div class="logo-area"><a  href="index.php"><img src="images/logo.png" alt="logo"></a></div>  
+                                <div class="logo-area"><a  href="<?= $_base_url ?>"><img src="<?= $_base_url ?>/images/logo.png" alt="logo"></a></div>  
                             </div>
                             <div class="col-lg-10 text-right">
                                 <div class="rs-menu-area">
@@ -161,13 +165,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <nav class="rs-menu">
                                             <ul class="nav-menu">
                                                 <!-- <li> <a href="index.php">Home</a></li> -->
-                                                <li> <a href="the-problem.php">The Problem</a></li>
-                                                <li> <a href="why-care.php">Why Care</a></li>
-                                                <li> <a href="how-we-work.php">How We Work</a></li><!--featured section-->
-                                                <li> <a href="the-solh-way.php">The Solh Way</a></li>
-                                                <li> <a href="solh-for-me.php">Solh For Me</a></li>
-                                                <li> <a href="lets-collaborate.php">Let's Collaborate</a></li>
-                                                <li> <a href="what-they-say.php">What They Say</a></li>
+                                                <li> <a href="<?= $_base_url ?>/the-problem.php">The Problem</a></li>
+                                                <li> <a href="<?= $_base_url ?>/why-care.php">Why Care</a></li>
+                                                <li> <a href="<?= $_base_url ?>/how-we-work.php">How We Work</a></li><!--featured section-->
+                                                <li> <a href="<?= $_base_url ?>/the-solh-way.php">The Solh Way</a></li>
+                                                <li> <a href="<?= $_base_url ?>/solh-for-me.php">Solh For Me</a></li>
+                                                <li> <a href="<?= $_base_url ?>/lets-collaborate.php">Let's Collaborate</a></li>
+                                                <li> <a href="<?= $_base_url ?>/what-they-say.php">What They Say</a></li>
                                                 <!-- <li> <a href="download-now.php">Download Now</a></li> -->
                                             </ul>
                                             

@@ -69,8 +69,8 @@ $mail->Password = 'Manjeet@123';                                     // SMTP pas
 $mail->SMTPSecure = 'tls';                                          // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                                  // TCP port to connect to
 
-// $mail->addAddress('info@solhapp.com', 'SolhApp');      // Add a recipient
-$mail->addAddress('pankaj.kumar@omlogic.co.in', 'SolhApp');      // Add a recipient
+$mail->addAddress('info@solhapp.com', 'SolhApp');      // Add a recipient
+// $mail->addAddress('pankaj.kumar@omlogic.co.in', 'SolhApp');      // Add a recipient
 // $mail->addAddress('ellen@example.com');                          // Name is optional
 // $mail->addReplyTo('info@example.com', 'Information');
 // $mail->addCC('cc@example.com');
