@@ -15956,6 +15956,8 @@ body .modal-backdrop {
 }
 .rs-footer .footer-content .footer-post .post-wrap .post-img a img {
   border-radius: 4px;
+  height: 60px;
+  width: 100%;
 }
 .rs-footer .footer-content .footer-post .post-wrap .post-desc a {
   color: #fff;
@@ -17212,4 +17214,38 @@ ul.f-column {
   }
   .section1 .content-part .slider-bottom ul li:last-child {
     margin: 0;
+  }
+.rightsidebar-latest-post {
+  padding: 0 15px;
+  }
+.rightsidebar-latest-post .post-wrap {
+    display: flex;
+  }  
+.rightsidebar-latest-post .post-wrap .post-img {
+  margin-right: 15px;
+  width: 25%;
+  max-height:75px;
+  }
+.rightsidebar-latest-post .post-wrap .post-desc {
+  width: 75%;
+  }  
+.rightsidebar-latest-post .post-wrap .post-img img {
+  border-radius: 4px;
+  height: 60px;
+  width: 100%;
+  }
+.rightsidebar-latest-post .post-wrap .post-desc a {
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+  font-weight: 500;
+  }
+.rightsidebar-latest-post .post-wrap .post-desc .date-post {
+  font-size: 12px;
+  }
+.rightsidebar-latest-post h4 {
+  margin: 10px 0 20px;
+  }
+.rb-lp-post h4 {
+  padding: 10px; margin-bottom: 12px;
   }
