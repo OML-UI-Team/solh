@@ -69,72 +69,29 @@ $event = json_decode($events, true);
                         </div>                    
                     </div>
 
+                    <?php
+                        $images = $event['gallery']??[];
+                    ?>
+                    <?php if(!empty($images)): ?>
                     <div id="rs-portfolio" class="rs-portfolio single pt-50 pb-70 md-pt-80 md-pb-50">
-        <div class="container">
-        <div class="row gallery-wrap">
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/1.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/1.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
+                        <div class="container">
+                            <div class="row gallery-wrap">
+                            <?php foreach($images as $image): ?>
+                                <div class="col-lg-4 col-sm-6 mb-30">
+                                    <div class="gallery-item">
+                                        <div class="content-part">
+                                            <img src="<?= $_api_base_url.'/'.$image ?>" alt="">
+                                            <a class="image-popup" href="<?= $_api_base_url.'/'.$image ?>">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/2.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/2.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/3.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/3.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/4.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/4.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/5.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/5.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-30">
-                <div class="gallery-item">
-                    <div class="content-part">
-                        <img src="images/portfolio/6.jpg" alt="">
-                        <a class="image-popup" href="images/portfolio/6.jpg">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
+                    <?php endif; ?>
 
                 </div>             
 
