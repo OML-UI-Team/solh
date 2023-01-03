@@ -2,7 +2,9 @@
 
 		<!-- Main content Start -->
         <div class="main-content">
-        <?php include('includes/breadcrumbs.php'); ?>
+        <div class="rs-breadcrumbs bg-4">
+            <img src="images/what-the-say-bnner.jpg" alt="">
+        </div>        
 
              <!-- Testimonial Section Start -->
              <div class="rs-testimonial style7 pt-104 pb-111 md-pt-66 md-pb-72">
@@ -10,7 +12,7 @@
                     <div class="sec-title text-center mb-45">
                         <h2 class="title mb-0">What They Say</h2>
                     </div>
-                    <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="2" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="1" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="2" data-lg-device="2" data-md-device-nav="false" data-md-device-dots="true">
+                    <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="2" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="1" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="2" data-lg-device="2" data-md-device-nav="false" data-md-device-dots="true">
                         <div class="testi-wrap mb-58 md-mb-0">
                             <div class="top-part">
                                 <div class="icon-part">

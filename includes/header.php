@@ -1,5 +1,5 @@
 <?php
-$_base_url = "http://192.168.1.56/solh/web";
+$_base_url = "http://localhost/www/solh";
 $_api_base_url = "http://192.168.1.56/solh/blog";
 ?>
 <!DOCTYPE html>

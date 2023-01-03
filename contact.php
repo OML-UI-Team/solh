@@ -2,9 +2,11 @@
 
 		<!-- Main content Start -->
         <div class="main-content">
-            <!-- Breadcrumbs Section Start -->
-            <?php include('includes/breadcrumbs.php'); ?>         
-           
+
+            <!-- Breadcrumbs Section Start -->            
+            <div class="rs-breadcrumbs bg-4">
+                <img src="images/contact-banner.jpg" alt="">
+            </div>           
 
             <!-- Contact Section Start -->
             <!-- <div id="rs-contact" class="rs-contact inner pt-100 md-pt-80">

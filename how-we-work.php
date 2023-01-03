@@ -1,8 +1,10 @@
 <?php include('includes/header.php'); ?>
 <!-- Main content Start -->
 <div class="main-content">
-    <?php include('includes/breadcrumbs.php'); ?>
-
+    
+    <div class="rs-breadcrumbs bg-4">
+        <img src="images/how-we-work-banner.jpg" alt="">                
+    </div>    
 
     <div class="rs-services style14 it-solutions pt-100 pb-100 md-pt-70 md-pb-70">
         <div class="container">
