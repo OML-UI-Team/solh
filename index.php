@@ -87,8 +87,8 @@
 
 <body class="home-six">
 
-<?php include('includes/sticky-header.php'); ?>
-    
+    <?php include('includes/sticky-header.php'); ?>
+
 
     <!-- Preloader area start here -->
     <div id="loader" class="loader">
@@ -116,12 +116,17 @@
                         <div class="toolbar-sl-share">
                             <ul>
                                 <li class="opening">
-                                    <marquee> <i class="flaticon-clock"></i>Meet Us at Modern Public School, Shalimar Bagh on Dec 16th</marquee>
+                                    <marquee> <i class="flaticon-clock"></i>Meet Us at Modern Public School, Shalimar
+                                        Bagh on Dec 16th</marquee>
                                 </li>
-                                <li><a href="https://www.instagram.com/solhappofficial" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.facebook.com/Solhappofficial-108015368279979/?ref=pages_you_manage" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/solh-app/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="https://twitter.com/solhappofficial" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/solhappofficial" target="_blank"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Solhappofficial-108015368279979/?ref=pages_you_manage"
+                                        target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/solh-app/" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://twitter.com/solhappofficial" target="_blank"><i
+                                            class="fa fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -163,7 +168,6 @@
                                             <li> <a href="what-they-say.php">What They Say</a></li>
                                             <!-- <li> <a href="download-now.php">Download Now</a></li> -->
                                         </ul>
-
                                     </nav>
                                 </div> <!-- //.main-menu -->
 
@@ -182,33 +186,31 @@
     <!-- Main content Start -->
     <div class="main-content">
         <!-- Slider Start -->
-
-
         <section class="section1">
             <div class="slide">
-            <div class="container">
-                <div class="content-part">
-                <div class="slider-des">
-                                <h1 class="sl-title mb-18">Climate. Contagion. Conflict. Conformity.</h1>
-                                <div class="sl-desc">Every life is full of stress. Everyone needs support. We empower
-                                    you to build resilience, perseverence & determination.</div>
-                            </div>
+                <div class="container">
+                    <div class="content-part">
+                        <div class="slider-des">
+                            <h1 class="sl-title mb-18">Climate. Contagion. Conflict. Conformity.</h1>
+                            <div class="sl-desc">Every life is full of stress. Everyone needs support. We empower
+                                you to build resilience, perseverence & determination.</div>
+                        </div>
 
-                            <div class="slider-bottom mt-40">
-                                <ul>
-                                    <li><a href="lets-collaborate.php" class="readon sl style6">Let's Collaborate</a>
-                                    </li>
-                                    <li><a href="contact.php" class="readon sl style6">Join as a Practitioner</a></li>
-                                </ul>
-                            </div>
+                        <div class="slider-bottom mt-40">
+                            <ul>
+                                <li><a href="lets-collaborate.php" class="readon sl style6">Let's Collaborate</a>
+                                </li>
+                                <li><a href="contact.php" class="readon sl style6">Join as a Practitioner</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
 
                 </div>
 
-            </div>
-
 
             </div>
-            
+
         </section>
         <!-- About Section Start -->
         <div id="out" class="out style3 pb-100 md-pb-80">
@@ -221,7 +223,7 @@
                                 society by removing stigma and empowering everyone with tools, solutions and access to
                                 preventive mental health support.</div>
                         </div>
-                        <ul class="listing-style mb-40">
+                        <ul class="listing-style mb-20">
                             <li>Generate Psychological Capital to deal with future</li>
                             <li>Have the power to tackle what life throws your way</li>
                             <li>Get help with trauma, distress & serious issues</li>
@@ -249,10 +251,11 @@
                         <h2 class="title mb-0">How we work</h2>
                     </div>
                     <div class="last-half">
-                        <p class="desc mb-0 pr-30">Mental health journey is a unique personalized experience for all, much
-                        like the mental health issues. With this belief, we empower people
-                        with a set of tools & solutions for self-help, journaling & groups for community support,
-                        on-call medical practitioners & counsellors, and allied therapies.</p>
+                        <p class="desc mb-0 pr-30">Mental health journey is a unique personalized experience for all,
+                            much
+                            like the mental health issues. With this belief, we empower people
+                            with a set of tools & solutions for self-help, journaling & groups for community support,
+                            on-call medical practitioners & counsellors, and allied therapies.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -455,7 +458,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 mb30">
                         <div class="flip-box-inner">
                             <div class="flip-box-wrap">
                                 <div class="front-part">
@@ -490,8 +493,8 @@
                         </div>
                     </div>
 
-                    
-                    <div class="col-lg-4 col-md-6">
+
+                    <div class="col-lg-4 col-md-6 mb30">
                         <div class="flip-box-inner">
                             <div class="flip-box-wrap">
                                 <div class="front-part">
@@ -526,11 +529,9 @@
                         </div>
                     </div>
 
-                    
-
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 mb30">
                         <div class="flip-box-inner">
-                            <div class="flip-box-wrap">                                
+                            <div class="flip-box-wrap">
                                 <div class="front-part">
                                     <div class="front-content-part">
                                         <div class="front-icon-part">
@@ -565,8 +566,6 @@
             </div>
         </div>
 
-
-
         <div id="rs-about" class="rs-about style1 md-pt-80" style="background-color:#e2e8df;">
             <div class="container">
                 <div class="row y-bottom">
@@ -599,11 +598,9 @@
             </div>
         </div>
 
-
-
-
         <?php include('includes/mann-de.php'); ?>
-
         <?php include('includes/cta1.php'); ?>
+
     </div>
+
     <?php include('includes/footer.php'); ?>

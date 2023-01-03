@@ -1,8 +1,10 @@
 <?php include('includes/header.php'); ?>
 
 <!-- Main content Start -->
-<div class="main-content">
-    <?php include('includes/breadcrumbs.php'); ?>
+<div class="main-content">    
+    <div class="rs-breadcrumbs bg-4">
+        <img src="images/events-banner.jpg" alt="">
+    </div>     
 
     <?php
 
@@ -343,11 +345,11 @@
             </div>
             <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30"
                 data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
-                data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
-                data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2"
-                data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1"
-                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3"
-                data-md-device-nav="false" data-md-device-dots="true">
+                data-dots="true" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
+                data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="2"
+                data-ipad-device-nav="true" data-ipad-device-dots="true" data-ipad-device2="1"
+                data-ipad-device-nav2="true" data-ipad-device-dots2="true" data-md-device="3" data-lg-device="3"
+                data-md-device-nav="true" data-md-device-dots="true">
 
                 <?php foreach ($past_events['data'] as $key => $event): ?>
                 <div class="blog-wrap past-events">

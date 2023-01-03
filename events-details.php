@@ -31,7 +31,6 @@ $event = json_decode($events, true);
     <!-- Current Events Section Start -->
     <div id="rs-services" class="event rs-services style2 gray-bg2 pt-100 pb-70 md-pt-80 md-pb-50 sm-pt-72">
  
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

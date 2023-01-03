@@ -1,3 +1,8 @@
+<?php
+$_base_url = "http://localhost/www/solh";
+$_api_base_url = "https://solhapp.com/blog";
+?>
+
 <footer id="rs-footer" class="rs-footer">
             <div class="container">
                  

@@ -3,7 +3,11 @@
 
 		<!-- Main content Start -->
         <div class="main-content">
-        <?php include('includes/breadcrumbs.php'); ?>
+        
+        <div class="rs-breadcrumbs bg-4">
+            <img src="images/our-team-banner.jpg" alt="">
+        </div>
+        
 
             <div class="rs-team grid2 pt-100 pb-70 md-pt-80 md-pb-50">
                 <div class="container">
