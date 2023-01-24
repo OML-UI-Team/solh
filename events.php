@@ -1,10 +1,12 @@
 <?php include('includes/header.php'); ?>
 
 <!-- Main content Start -->
-<div class="main-content">    
-    <div class="rs-breadcrumbs bg-4">
+<div class="main-content">
+    
+    <div class="inn-banner">
         <img src="images/events-banner.jpg" alt="">
-    </div>     
+        <div class="title_cont">Events</div>
+    </div>
 
     <?php
 
@@ -332,7 +334,7 @@
     <?php endif; ?>
     
 
-<?php if($past_events['data']): ?>
+<?php /* if($past_events['data']): ?>
     <!-- Blog Section Start -->
     <div class="rs-blog style1 modify4 gray-bg2 bg41 pt-100 pb-100 md-pb-70 past-events-bg">
         <div class="container">
@@ -345,11 +347,11 @@
             </div>
             <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30"
                 data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
-                data-dots="true" data-nav="true" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
-                data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="2"
-                data-ipad-device-nav="true" data-ipad-device-dots="true" data-ipad-device2="1"
-                data-ipad-device-nav2="true" data-ipad-device-dots2="true" data-md-device="3" data-lg-device="3"
-                data-md-device-nav="true" data-md-device-dots="true">
+                data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
+                data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2"
+                data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1"
+                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="3"
+                data-md-device-nav="false" data-md-device-dots="true">
 
                 <?php foreach ($past_events['data'] as $key => $event): ?>
                 <div class="blog-wrap past-events">
@@ -379,7 +381,46 @@
         </div>
     </div>
     <!-- Blog Section End -->
-<?php endif; ?>
+<?php endif; */ ?>
 
+<?php if($past_events['data']): ?>
+    <!-- Blog Section Start -->
+    <div class="pb-100 past-events-bg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sec-title5 text-center mb-50">
+                        <h2 class="title pb-20">Past Events</h2>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod
+                            tempor incidi dunt ut dolore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <?php foreach ($past_events['data'] as $key => $event): ?>
+                <div class="col-xl-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <a href="<?= $_base_url.'/event/'.$event['slug'] ?>">
+                            <img src="<?= $_api_base_url.'/'.$event['image'] ?>">
+                            <div class="card-body">
+                                <div class="card-title"><?= $event['name'] ?></div>
+                                <div class="date">
+                                    <i class="fa fa-clock-o"></i> <?= date('M d, Y h:i A', strtotime($event['event_date']." ".$event['event_time'])) ?>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            </div>
+
+        </div>
+    </div>
+    <!-- Blog Section End -->
+<?php endif; ?>
 
     <?php include('includes/footer.php'); ?>
