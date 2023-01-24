@@ -42,13 +42,10 @@
 
                         <h6>Disputes and Governing Law</h6>
 
-                        <p>These Website/ app Terms are governed by the federal laws of India and all disputes arising here under are subject to the exclusive jurisdiction of the courts of Dubai, United Arab Emirates.</p>
+                        <p>These Website/ app Terms are governed by the federal laws of India and all disputes arising here under are subject to the exclusive jurisdiction of the courts of New Delhi, India.</p>
 
                     </div>
                 </div>
-
-
-
             </div>
         </div>
 

@@ -115,10 +115,10 @@
                     <div class="col-md-7">
                         <div class="toolbar-sl-share">
                             <ul>
-                                <li class="opening">
+                                <!-- <li class="opening">
                                     <marquee> <i class="flaticon-clock"></i>Meet Us at Modern Public School, Shalimar
                                         Bagh on Dec 16th</marquee>
-                                </li>
+                                </li> -->
                                 <li><a href="https://www.instagram.com/solhappofficial" target="_blank"><i
                                             class="fa fa-instagram"></i></a></li>
                                 <li><a href="https://www.facebook.com/Solhappofficial-108015368279979/?ref=pages_you_manage"
